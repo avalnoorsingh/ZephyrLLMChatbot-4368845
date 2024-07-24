@@ -59,11 +59,13 @@ demo = gr.ChatInterface(
     ],
 
     examples = [ 
-        ["I feel overwhelmed with work."],
-        ["Can you guide me through a quick meditation?"],
-        ["How do I stop worrying about things I can't control?"]
+        ["I need help with pre-flight checks"],
+        ["What is the current weather forecast for my flight route?"],
+        ["What approach procedure should I use for landing at my destination airport?"],
+        ["Are there any maintenance issues or mechanical problems with my aircraft that I should be aware of?"],
+        ["What is the recommended altitude and flight path for optimal fuel efficiency?"]
     ],
-    title = 'Calm Mate 🕊️'
+    title = 'Airline Pilot Assistant'
 )
 
 
